@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=11" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=yes" name="viewport">
+  <title>CORONA VIRUS</title>
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <p class="header__logo">C O A T V I D - 19</p>
+        <nav class="header__links">
+			<a class="header__link" href="index.html">home</a>
+            <a class="header__link" href="product.html">product</a>
+            <a class="header__link header__link--active" href="survey.html">survey</a>
+            <a class="header__link" href="about.html">about</a>
+		</nav>
+    </header>
+
+    <img src="pics/banner.png" style="width: 100%; height: auto;">
+
+    <main>
+        <section class="centered">
+            <div class="wrapper">
+                <h2 class="title center">SURVEY RESULTS</h2>
+                <p class="text--center">We conducted a survey for the first draft of our product to 
+                receive constructive criticism from a few participants. After conducting our survey 
+                we already added new information and features. Here are the results of the survey:</p>
+            </div>
+        </section>
+
+        <div class="row"></div>
+            <section> 
+                    <div class="column-grid">
+                    <img src="./pics/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    <img src="./pics/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    <img src="./pics/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    <img src="./pics/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    <img src="./pics/5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                    <img src="./pics/6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                    </div>
+            </section>
+            <section> 
+                <div class="column-grid">
+                <img src="./pics/8.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                <img src="./pics/9.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                <img src="./pics/10.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+                <img src="./pics/11.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+                <img src="./pics/7.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+                <img src="./pics/12.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+                </div>
+            </section>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+        
+            <div class="mySlides">
+                <div class="numbertext">1 / 12</div>
+                <img src="./pics/1.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 12</div>
+                <img src="./pics/2.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 12</div>
+                <img src="./pics/3.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">4 / 12</div>
+                <img src="./pics/4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 12</div>
+                <img src="./pics/5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 12</div>
+                <img src="./pics/6.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">7 / 12</div>
+                <img src="./pics/8.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">8 / 12</div>
+                <img src="./pics/9.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">9 / 12</div>
+                <img src="./pics/10.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">10 / 12</div>
+                <img src="./pics/11.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">11 / 12</div>
+                <img src="./pics/7.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">12 / 12</div>
+                <img src="./pics/12.jpg" style="width:100%">
+            </div>
+        
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </main>
+
+        <footer>
+        copyright © 2021
+    </footer>
+
+    <script src="./js/main.js" type="text/javascript"></script>
+</body>
+</html>
